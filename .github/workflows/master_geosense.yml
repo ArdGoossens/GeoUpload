@@ -29,7 +29,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'geosense'
+        app-name: 'geosense3'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_8f873048bd6c4537a066c126f39dc53e }}
         package: ${{env.DOTNET_ROOT}}/myapp 
