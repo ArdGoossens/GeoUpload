@@ -1,0 +1,9 @@
+C:\Users\a.goossens\OneDrive - MM-Guide BV\github\GeoUpload
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=FileUploader
+--content-root=C:\Users\a.goossens\OneDrive - MM-Guide BV\github\GeoUpload
+--file=C:\Users\a.goossens\OneDrive - MM-Guide BV\github\GeoUpload\Views\Home\Index.cshtml
+--file=C:\Users\a.goossens\OneDrive - MM-Guide BV\github\GeoUpload\Views\Shared\Error.cshtml
+--file=C:\Users\a.goossens\OneDrive - MM-Guide BV\github\GeoUpload\Views\Shared\_Layout.cshtml
+--file=C:\Users\a.goossens\OneDrive - MM-Guide BV\github\GeoUpload\Views\_ViewImports.cshtml
+--file=C:\Users\a.goossens\OneDrive - MM-Guide BV\github\GeoUpload\Views\_ViewStart.cshtml
