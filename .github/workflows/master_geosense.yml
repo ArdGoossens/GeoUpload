@@ -27,9 +27,9 @@ jobs:
       run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
     - name: Deploy to Azure Web App
-      uses: azure/webapps-deploy@v1
+      uses: azure/webapps-deploy@v2
       with:
         app-name: 'geosense'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_72454b8a88a14129851d58e43339079c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_93d938119e7a4d00bb4bd9c995819ac4 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
